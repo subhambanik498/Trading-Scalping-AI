@@ -36,8 +36,8 @@ logger = logging.getLogger("APEX")
 # ============================================================
 class Config:
     ADMIN_SECRET_KEY = os.getenv("ADMIN_SECRET_KEY", "APEX@admin2024")  # Change in .env!
-    ALPACA_API_KEY   = os.getenv("ALPACA_API_KEY", "")
-    ALPACA_SECRET    = os.getenv("ALPACA_SECRET", "")
+    ALPACA_API_KEY   = os.getenv("ALPACA_API_KEY", "453LcW3fBCeF1JpUD68ge7TUdB2idu594j59qNcjcufL")
+    ALPACA_SECRET    = os.getenv("ALPACA_SECRET", "CKAUG4YKFWPWFNL74UM6OIWBCH")
     ALPACA_PAPER     = os.getenv("ALPACA_PAPER", "true").lower() == "true"
     ZERODHA_API_KEY  = os.getenv("ZERODHA_API_KEY", "")
     ZERODHA_SECRET   = os.getenv("ZERODHA_SECRET", "")
